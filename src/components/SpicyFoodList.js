@@ -16,10 +16,10 @@ function SpicyFoodList() {
   ));
 
   return (
-    <div>
+    <>
       <button onClick={handleAddFood}>Add New Food</button>
       <ul>{foodList}</ul>
-    </div>
+    </>
   );
 }
 
